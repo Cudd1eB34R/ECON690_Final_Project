@@ -45,6 +45,11 @@ Data is collected for all 50 states over 7 years.
 
 income.csv
 
+### Firearm Laws (State Firearm Laws)
+Data is collected for all 50 states over 7 years.  There are several laws to choose from.  For now I'll focus on the top few that other sources attribute to gun violence.
+
+gun_laws.csv
+
 ### Age/Race/Gender (IPUMS)
 There's too much data to fit on a csv file.  I'm trying to find a work around right now (if time permits).
 
