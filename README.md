@@ -62,6 +62,18 @@ master.dta
 
 ## Papers
 
+### The National Incident-Based Reporting System: Research and Policy Applications
+@article{maxfield1999national,
+  title={The national incident-based reporting system: Research and policy applications},
+  author={Maxfield, Michael G},
+  journal={Journal of Quantitative Criminology},
+  volume={15},
+  number={2},
+  pages={119--149},
+  year={1999},
+  publisher={Springer}
+}
+
 ### State and Local Prevalence of Firearms Ownership Measurement, Structure, and Trends
 @article{azrael2004state,
   title={State and local prevalence of firearms ownership measurement, structure, and trends},
