@@ -62,6 +62,18 @@ master.dta
 
 ## Papers
 
+### State and Local Prevalence of Firearms Ownership Measurement, Structure, and Trends
+@article{azrael2004state,
+  title={State and local prevalence of firearms ownership measurement, structure, and trends},
+  author={Azrael, Deborah and Cook, Philip J and Miller, Matthew},
+  journal={Journal of Quantitative Criminology},
+  volume={20},
+  number={1},
+  pages={43--62},
+  year={2004},
+  publisher={Springer}
+}
+
 ### The Social Costs of Gun Ownership
 @article{cook2006social,
   title={The social costs of gun ownership},
