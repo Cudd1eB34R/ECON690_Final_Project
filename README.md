@@ -59,3 +59,26 @@ usa_00007.csv
 Time dummies, Lag * FSS, One-Year Lag of Murders, and log(income) are generated.  Test OLS regressions and VIF factors are checked.  A .dta file is outputted for Stata usage.
 
 master.dta
+
+## Papers
+
+### The Social Costs of Gun Ownership
+@article{cook2006social,
+  title={The social costs of gun ownership},
+  author={Cook, Philip J and Ludwig, Jens},
+  journal={Journal of Public Economics},
+  volume={90},
+  number={1-2},
+  pages={379--391},
+  year={2006},
+  publisher={Elsevier}
+}
+
+### Public Opinion on Proposals to Strengthen U.S. Gun Laws
+@article{mcginty2013public,
+  title={Public opinion on proposals to strengthen US gun laws},
+  author={McGinty, Emma E and Webster, Daniel W and Vernick, Jon S and Barry, Colleen L},
+  journal={REDUCING GUN VIOLENCE},
+  pages={239},
+  year={2013}
+}
