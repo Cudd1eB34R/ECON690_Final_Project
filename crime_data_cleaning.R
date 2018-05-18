@@ -769,7 +769,7 @@ master$FSS.t <- master$Lags * master$FSS
 
 # Laging Murders.r
 master <- slide(data = master, Var = "Murders.r", slideBy = -1)
-master$`Murders.r-1` <- ifelse(master$Lags == 0, 0 , master$`Murders.r-1`)
+master$Murders.r_lag <- ifelse(master$Lags == 0, 0 , Murders.r_lag)
 
 # log of MedInc
 master$lMedInc <- log(master$MedInc)
