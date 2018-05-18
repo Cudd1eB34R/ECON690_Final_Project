@@ -56,7 +56,7 @@ There's too much data to fit on a csv file.  I'm trying to find a work around ri
 usa_00007.csv
 
 ### Party Strength (Wikipedia) (UNUSED)
-Dataset scraped from Wikipedia and formatted before submission to Kaggle.  Unfortunately, the data has only been updated to 2013.  Fortunately, the Python code used to clean the data is available on Github () and can be utilized to update the process.  Unfortunately, I don't know enough Python to do this myself.
+Dataset scraped from Wikipedia and formatted before submission to Kaggle and Github.  Unfortunately, the data has only been updated to 2015.  Fortunately, the Python code used to clean the data is available on Github (https://github.com/kiwiPhrases/state_party_strength) and can be utilized to update the process.  Unfortunately, I don't know enough Python to do this myself.
 
 states_party_strength_cleaned.csv
 
