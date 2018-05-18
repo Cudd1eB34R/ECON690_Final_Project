@@ -2,6 +2,7 @@
 Data is collected for each of the 50 states over a 7 year period.
 
 ## Raw Data Files
+Each segment includes a short explaination about the data and the files corresponding to it.
 
 ### Murder Ratio/MSA Ratio (FBI:UCR)
 Each table contains data for all 50 states in 1 year.  Murder ratio is calculated from estimated total murders and estimated state population.  MSA ratio is calculated from estimated MSA population over estimated state population
@@ -61,11 +62,10 @@ Dataset scraped from Wikipedia and formatted before submission to Kaggle and Git
 states_party_strength_cleaned.csv
 
 ## Data Cleaning and Variable Generation
-Time dummies, Lag * FSS, One-Year Lag of Murders, and log(income) are generated.  Test OLS regressions and VIF factors are checked.  A .dta file is outputted for Stata usage.
-
-master.dta
+Time dummies, Lag * FSS, One-Year Lag of Murders, and log(income) are generated.  Test OLS regressions and VIF factors are checked.  A .dta file is outputted for Stata usage (master.dta) because I don't know how to regress panel data in R just yet.
 
 ## Papers
+Here's a small collection of papers I've read and will include in my research.  They're in .bib format so I can easily include them in my LaTeX documents.
 
 ### The National Incident-Based Reporting System: Research and Policy Applications
 @article{maxfield1999national,
