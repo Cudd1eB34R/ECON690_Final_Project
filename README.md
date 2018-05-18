@@ -45,7 +45,7 @@ Data is collected for all 50 states over 7 years.
 
 income.csv
 
-### Firearm Laws (State Firearm Laws)
+### Firearm Laws (State Firearm Laws) (UNUSED)
 Data is collected for all 50 states over 7 years.  There are several laws to choose from.  For now I'll focus on the top few that other sources attribute to gun violence.
 
 gun_laws.csv
@@ -98,7 +98,7 @@ master.dta
   publisher={Elsevier}
 }
 
-### Public Opinion on Proposals to Strengthen U.S. Gun Laws
+### Public Opinion on Proposals to Strengthen U.S. Gun Laws (UNUSED)
 @article{mcginty2013public,
   title={Public opinion on proposals to strengthen US gun laws},
   author={McGinty, Emma E and Webster, Daniel W and Vernick, Jon S and Barry, Colleen L},
