@@ -50,10 +50,15 @@ Data is collected for all 50 states over 7 years.  There are several laws to cho
 
 gun_laws.csv
 
-### Age/Race/Gender (IPUMS)
+### Age/Race/Gender (IPUMS) (UNUSED)
 There's too much data to fit on a csv file.  I'm trying to find a work around right now (if time permits).
 
 usa_00007.csv
+
+### Party Strength (Wikipedia) (UNUSED)
+Dataset scraped from Wikipedia and formatted before submission to Kaggle.  Unfortunately, the data has only been updated to 2013.  Fortunately, the Python code used to clean the data is available on Github () and can be utilized to update the process.  Unfortunately, I don't know enough Python to do this myself.
+
+states_party_strength_cleaned.csv
 
 ## Data Cleaning and Variable Generation
 Time dummies, Lag * FSS, One-Year Lag of Murders, and log(income) are generated.  Test OLS regressions and VIF factors are checked.  A .dta file is outputted for Stata usage.
