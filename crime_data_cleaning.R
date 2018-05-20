@@ -764,12 +764,13 @@ master$t6 <- ifelse(master$Lags == 6, 1, 0)
 # Lag * FSS
 master$FSS.t <- master$Lags * master$FSS
 
-# Lag * Murders.r (not included)
-#master$Murders.r.t <- master$Lags * master$Murders.r
-
 # Laging Murders.r
 master <- slide(data = master, Var = "Murders.r", slideBy = -1)
-master$Murders.r_lag <- ifelse(master$Lags == 0, 0 , Murders.r_lag)
+master$Murders.r_Lag <- ifelse(master$Lags == 0, 0 , master$`Murders.r-1`)
+
+# Lagging FSS
+master <- slide(data = master, Var = "FSS", slideBy = -1)
+master$FSS_lag <- ifelse(master$Lags == 0, 0, master$`FSS-1`)
 
 # log of MedInc
 master$lMedInc <- log(master$MedInc)
