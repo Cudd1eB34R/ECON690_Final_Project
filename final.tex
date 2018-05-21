@@ -1,27 +1,25 @@
 \documentclass[]{article}
 \setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
 \begin{document}
-\begin{tabular}{lcccc} \hline
- & (1) & (2) & (3) & (4) \\
-VARIABLES & OLS & Fixed Effects & Random Effects & Fixed Effects (Robust) \\ \hline
- &  &  &  &  \\
-FSS & 6.15e-05*** & 6.30e-05 & 4.71e-05*** & 6.30e-05 \\
- & (1.35e-05) & (4.09e-05) & (1.49e-05) & (4.15e-05) \\
-FSS\_t & -3.66e-06** & -7.32e-06*** &  & -7.32e-06** \\
- & (1.58e-06) & (2.23e-06) &  & (2.79e-06) \\
-MSA\_r & 3.01e-05*** & 6.24e-05** & 2.48e-05*** & 6.24e-05*** \\
- & (8.13e-06) & (2.52e-05) & (8.98e-06) & (1.39e-05) \\
-lMedInc & -2.07e-05** & -3.28e-06 & -2.16e-05* & -3.28e-06 \\
- & (1.05e-05) & (2.37e-05) & (1.14e-05) & (2.31e-05) \\
-UR & 0.000186* & -7.22e-06 & 0.000325*** & -7.22e-06 \\
- & (9.89e-05) & (0.000145) & (7.20e-05) & (0.000163) \\
-Constant & 0.000190 & -5.69e-06 & 0.000197 & -5.69e-06 \\
- & (0.000119) & (0.000263) & (0.000130) & (0.000255) \\
- &  &  &  &  \\
-Observations & 350 & 350 & 350 & 350 \\
-R-squared & 0.249 & 0.159 &  & 0.159 \\
- Number of State &  & 50 & 50 & 50 \\ \hline
-\multicolumn{5}{c}{ Robust standard errors in parentheses} \\
-\multicolumn{5}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & Murders\_r & Fixed Effects & Random Effects \\ \hline
+ &  &  &  \\
+FSS & 4.62e-05*** & 5.56e-05 & 4.71e-05*** \\
+ & (1.18e-05) & (4.30e-05) & (1.66e-05) \\
+MSA\_r & 2.31e-05*** & 5.53e-05*** & 2.48e-05*** \\
+ & (7.15e-06) & (1.00e-05) & (7.69e-06) \\
+lMedInc & -2.06e-05** & -2.90e-05 & -2.16e-05 \\
+ & (1.02e-05) & (2.03e-05) & (1.48e-05) \\
+UR & 0.000325*** & 0.000333*** & 0.000325*** \\
+ & (7.20e-05) & (7.84e-05) & (7.39e-05) \\
+Constant & 0.000187 & 0.000250 & 0.000197 \\
+ & (0.000115) & (0.000225) & (0.000167) \\
+ &  &  &  \\
+Observations & 350 & 350 & 350 \\
+R-squared & 0.236 & 0.129 &  \\
+ Number of State &  & 50 & 50 \\ \hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
 \end{tabular}
 \end{document}
