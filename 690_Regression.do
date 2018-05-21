@@ -1,5 +1,4 @@
-* packages
-ssc install xttest3
+* install outreg2
 ssc install outreg2
 
 * set panel data
@@ -17,26 +16,15 @@ bysort Year: egen murder_mean2 = mean(Murders_r)
 twoway scatter Murders_r Year, msymbol(circle_hollow) || connected murder_mean2 Year, msymbol(diamond)
 
 * OLS Model
-regress Murders_r FSS FSS_t MSA_r lMedInc UR, robust
+regress Murders_r FSS  MSA_r lMedInc UR, robust
 outreg2 using final, tex replace
 
 * FE Model
-xtreg Murders_r FSS FSS_t MSA_r lMedInc UR, fe
+xtreg Murders_r FSS  MSA_r lMedInc UR, fe robust
 outreg2 using final, tex append ctitle(Fixed Effects)
 estimates store fixed
 
 * RE Model
-xtreg Murders_r FSS FSS_t MSA_r lMedInc UR, re
+xtreg Murders_r FSS  MSA_r lMedInc UR, re robust
 outreg2 using final, tex append ctitle(Random Effects)
 estimates store random
-
-* Hausman Test
-hausman fixed random
-
-* Heteroskedasticity in FE Model
-xtreg Murders_r FSS FSS_t MSA_r lMedInc UR, fe
-xttreg3
-
-* FE Robust Model
-xtreg Murders_r FSS FSS_t MSA_r lMedInc UR, fe robust
-outreg2 using final, tex append ctitle(Fixed Effects (Robust))
