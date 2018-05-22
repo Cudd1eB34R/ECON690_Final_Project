@@ -18,6 +18,7 @@ twoway scatter Murders_r Year, msymbol(circle_hollow) || connected murder_mean2 
 * OLS Model
 regress Murders_r FSS  MSA_r lMedInc UR, robust
 outreg2 using final, tex replace ctitle(OLS)
+vif
 
 * FE Model
 xtreg Murders_r FSS  MSA_r lMedInc UR, fe robust
